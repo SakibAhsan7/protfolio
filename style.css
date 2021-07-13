@@ -1,0 +1,250 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+
+
+}
+.Up{
+    background-image: linear-gradient(to left, #48dbfb , #5f27cd);
+    width: 100%;
+}
+.logo{
+    margin-top: -62px;
+}
+ul {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+li {
+    margin: 25px 31px;
+}
+a{
+    color:#b5403f;
+    font-weight: bold;
+    font-size: 1.2rem;
+    text-decoration: none;
+    transition: 0.4s;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+h2 {
+    font-size: 3.2rem;
+    font-weight: 600;
+    /* padding: 10px 30px; */
+    text-align: center;
+    padding-top: 50px;
+}
+
+p {
+    font-size: 1.9rem;
+    font-weight: 500;
+    text-align: center;
+}
+
+.ppic {
+    /* padding-bottom: 20px; */
+    margin-top: -40px;
+    /* left: 60px; */
+    margin-left: 60px;
+}
+
+.btn {
+    font-size: 1.1rem;
+    font-weight: bold;
+    border: none;
+    padding: 15px 25px;
+    border-radius: 35px;
+    margin-left: 108px;
+    cursor: pointer;
+    background-image: linear-gradient(to right, #ee5253, #feca57, #ee5253);
+    transition: 0.5s;
+}
+.btn:hover{
+    background-position: left;
+}
+.wave{
+    position: absolute;
+   bottom: 0;
+   left: 0;
+}
+
+
+.middle{
+    margin-top: 50px;
+}
+.middle h2{
+    font-size: 1.9rem;
+    margin-right: 190px;
+}
+
+.middle .about-meP{
+    font-size: 1.4rem;
+    text-align: justify;
+    padding: 30px;
+    margin-left: -103px;
+    margin-right: 88px;
+}
+h2.protfolio {
+    font-size: 2.1rem;
+    font-weight: 900;
+    margin-bottom: 41px;
+    margin-right: 190px;
+}
+
+.card {
+    padding: 15px;
+    text-align: center;
+    margin: 0px 10px;
+    box-shadow: 10px 10px 17px;
+    transition: 0.3s;
+}
+
+.card span {
+    font-size: 1.4rem;
+}
+
+.card p {
+    font-size: 1.1rem;
+    margin-top: 10px;
+    line-height: 32px;
+}
+
+.card:hover{
+    background-image: linear-gradient(to left, #48dbfb , #5f27cd);
+    transform: translateY(-20px);
+}
+
+.invention{
+    margin-top: 60px;
+    margin-right: 210px;
+}
+.item{
+    background-color: #dcdde1;
+    text-align: center;
+    padding: 45px;
+    margin: 30px 10px;
+    
+}
+.item img{
+    transition: 0.5s all;
+}
+.item:hover{
+    background-color: #fff;
+}
+.item:hover img{
+   transform: scale(1.2);
+}
+
+.product-p p{
+    font-size: 1.2rem;
+    text-align: center;
+    margin-top: 50px;
+    padding: 15px;
+}
+
+.low{
+    background-color: black;
+    color: #fff;
+    margin-top: 30px;
+}
+p.contact {
+    font-size: 2.2rem;
+    padding: 20px;
+    font-weight: 500;
+    margin-right: 161px;
+}
+
+.icon{
+    margin-left: 31px;
+    margin-top: 30px;
+    font-size: 1.4rem;
+    
+}
+.icon:hover
+{
+    background-image: linear-gradient(to left, #48dbfb , #5f27cd);
+    -webkit-background-clip:text;
+    color: transparent;
+    cursor: pointer;
+}
+
+.icon-mobile{
+    margin-top: 0px;
+    margin-left: 130px;
+}
+.icon-mobile:hover,.icon-envelope:hover {
+    background-image: linear-gradient(to left, #48dbfb , #5f27cd);
+    -webkit-background-clip:text;
+    color: transparent;
+    cursor: pointer;
+}
+.icon-envelope{
+    margin-top: 20px;
+    margin-left: 130px;
+}
+
+.mail {
+    margin-top: 15px;
+    display: inline-block;
+}
+.mail:hover , .mobile:hover{
+    color: #b6adad;
+}
+.col-md-12{
+    margin-left: 96px;
+}
+
+span.yg {
+    font-size: 18px;
+    display: inline-block;
+    margin-left: 30px;
+}
+
+
+input.ym {
+    margin-top: 15px;
+    margin-left: 30px;
+    width: 200px;
+    padding: 3px;
+    border-radius: 5px;
+    font-size: 1rem;
+    padding-left: 10px;
+
+}
+
+
+
+span.yt {
+    margin-left: 30px;
+    margin-top: 20px;
+    display: inline-block;
+    font-size: 18px;
+   
+}
+
+
+textarea.ym2 {
+    margin-top: 20px;
+    margin-left: 30px;
+    padding: 5px;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+.finish{
+    margin-top: 20px;
+    display: inline-block;
+    padding: 15px;
+  margin-left: 320px;
+}
